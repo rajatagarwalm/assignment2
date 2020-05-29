@@ -1,0 +1,110 @@
+h1{
+    color: rebeccapurple;
+    font-size: 30px;
+    text-transform: uppercase;
+ }   
+
+ p{
+    font-size: 20px;
+    color: rgb(100, 100, 90);
+ }
+
+ h2{
+     font-size: 30px;
+     color: #460885;
+     text-transform: uppercase;
+ }
+ #detail h3{
+     text-align: center;
+     font-size:30px ;
+ }
+
+ a{
+     text-decoration: unset;
+     color: rgb(77, 2, 45);
+     font-size: 18px;
+ } 
+body{
+    background-image: url('../img/1234.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: auto;
+    color: white;
+}
+#information{
+    color: red !important;
+}
+#banner h2{
+  text-align: center;
+  text-decoration: underline;
+}  
+#header {
+    background: rgb(112, 58, 5);
+    position: fixed;
+    text-align: center;
+    z-index: 100; 
+    margin: 0 auto;
+    display: block;
+    top: auto;
+    width: 320px;
+}
+a:hover{
+    background: rgb(143, 230, 241);
+}
+p:hover{
+    background: rgb(77, 2, 27);
+}
+a:active{
+    color: rgb(53, 35, 3);
+}
+#about-section, #banner h2, #navigation, #detail h3, #contact-details, #banner, .topnav, #detail, #detail h2, #linking,#blog-list,#blogs,#bloglist, #blog-list h2,#blogs h2,#bloglist h2{
+  width: 90%;
+  border: 19px solid rgb(35, 35, 36);
+  padding: 25px;
+  margin: 20px;  
+  background:rgb(180, 172, 172);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: darkred;
+  text-align: center;
+}  
+#blog-list ol li,#blogs ol li,#bloglist ol li{
+    text-align: left;
+}
+#about-section h2{
+    text-align: center;
+}
+nav{
+    max-width: 100%;
+    background: #ccc;
+    margin: 0px auto;
+    padding: 15px;
+    position: relative;;
+    top: 20px;
+}
+
+nav ul{
+    white-space: nowrap;
+}
+
+nav li{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+
+}
+#detail{
+    background-image: url('../img/1111.jpg');
+}
+#blog-list{
+    background-image: url('../img/football/football123.jpg'); 
+    background-size: 100% 100%;
+}
+#bloglist{
+    background-image: url('../img/cricket/cricket123.jpg');
+    background-size: 100% 100%;
+}
+#blogs{
+    background-image: url('../img/basketball/basketball123.jpg');
+    background-size: 100% 100%;
+}
+
